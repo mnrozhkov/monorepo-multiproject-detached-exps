@@ -1,0 +1,11 @@
+stages:
+  train:
+    cmd: python train.py
+    params:
+      - params.yaml:
+    metrics:
+      - dvclive/metrics.json:
+          cache: false
+    plots:
+      - dvclive/plots:
+          cache: false

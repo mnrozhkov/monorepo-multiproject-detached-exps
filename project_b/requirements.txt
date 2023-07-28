@@ -32,6 +32,7 @@ dvc-objects==0.24.0
 dvc-render==0.5.3
 dvc-studio-client==0.11.0
 dvc-task==0.3.0
+dvclive==2.13.0
 filelock==3.12.2
 flatten-dict==0.4.2
 flufl.lock==7.1.1

@@ -1,0 +1,18 @@
+schema: '2.0'
+stages:
+  train:
+    cmd: python train.py
+    params:
+      params.yaml:
+        epochs: 10
+        sleep: 3
+    outs:
+    - path: dvclive/metrics.json
+      hash: md5
+      md5: 635767ff51a62eeabaa66fe763063e31
+      size: 79
+    - path: dvclive/plots
+      hash: md5
+      md5: 4a87de4d7302086fc536554dfbd298f4.dir
+      size: 425
+      nfiles: 2
