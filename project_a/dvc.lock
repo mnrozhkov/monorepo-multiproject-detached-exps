@@ -9,10 +9,10 @@ stages:
     outs:
     - path: dvclive/metrics.json
       hash: md5
-      md5: 94ca6a2ed98ab7fc5fff1030b252c461
-      size: 78
+      md5: aa09911ff56e27bd33ae7374cbc188d6
+      size: 79
     - path: dvclive/plots
       hash: md5
-      md5: 248ee35a32090ba7dcb092e841ca2421.dir
-      size: 422
+      md5: 1e7e1a088a35eace2ea4bf237705e4df.dir
+      size: 420
       nfiles: 2
