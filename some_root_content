@@ -4,3 +4,4 @@ additional root content
 2024-01-12 09:50:14 - test_exp_parentCommit_outside_project_a.sh
 2024-01-12 09:52:43 - test_exp_parentCommit_outside_project_a.sh
 2024-01-12 10:20:31 - 1-test_dvc_exp_inProjectA_parentCommit_inRoot.sh
+2024-01-12 10:50:43 - 2-test_commit_exp_inProjectA_parentCommit_inRoot.sh
