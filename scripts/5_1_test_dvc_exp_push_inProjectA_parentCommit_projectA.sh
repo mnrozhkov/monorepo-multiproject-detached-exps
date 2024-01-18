@@ -6,7 +6,7 @@
 echo "$(date '+%Y-%m-%d %H:%M:%S') - 5_1_test_dvc_exp_push_inProjectA.sh" >> project_a/some_projectA_content
 git add project_a/some_projectA_content
 git commit -m "$(date '+%H:%M:%S') - 5_1_test_dvc_exp_push_inProjectA.sh"
-# git push origin main  # Comment this line to simulate NOT PUSHED parent commit scenario
+git push origin main  # Comment this line to simulate NOT PUSHED parent commit scenario
 
 # (step 2) Clean experiments in A
 cd project_a
