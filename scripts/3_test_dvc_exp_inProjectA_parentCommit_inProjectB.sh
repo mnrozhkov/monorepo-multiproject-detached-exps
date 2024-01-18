@@ -9,7 +9,7 @@ cd project_a
 dvc exp run -f
 
 # (step 3) Push DVC experiment from Project A
+cd ..
 git add project_a/*
 git commit -m "Commit dvc exp: 3-test_dvc_exp_inProjectA_parentCommit_inProjectB.sh"
 git push origin main 
-
